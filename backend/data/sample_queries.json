@@ -1,0 +1,82 @@
+[
+  {
+    "query": "What's my savings rate?",
+    "expected_answer_covers": "Savings APY values: Basic 0.50%, Premium 1.75%, Youth 1.00%"
+  },
+  {
+    "query": "How much interest do I earn on my savings?",
+    "expected_answer_covers": "Same as above — tests phrasing variation for the same intent"
+  },
+  {
+    "query": "Can you tell me the interest I get on a basic savings account",
+    "expected_answer_covers": "0.50% APY for Basic Savings"
+  },
+  {
+    "query": "I want to open a checking account, what are my options?",
+    "expected_answer_covers": "Free Checking, Interest Checking, Student Checking details"
+  },
+  {
+    "query": "do yall have student accounts",
+    "expected_answer_covers": "Student Checking — free for full-time students"
+  },
+  {
+    "query": "Am I eligible for a personal loan with a 600 credit score?",
+    "expected_answer_covers": "620 minimum for standard approval; secured/co-signed alternative for lower scores"
+  },
+  {
+    "query": "What do I need to qualify for a mortgage?",
+    "expected_answer_covers": "Credit score 620+, down payment 3-20%, 2+ years employment, DTI under 45%"
+  },
+  {
+    "query": "how long until my loan gets approved",
+    "expected_answer_covers": "1-2 business days personal loan, 2-4 weeks mortgage, auto loan pre-approval in minutes"
+  },
+  {
+    "query": "What documents do I bring to apply for a loan?",
+    "expected_answer_covers": "Government ID, proof of income, proof of address, bank statements for mortgages"
+  },
+  {
+    "query": "Is there a monthly fee on checking?",
+    "expected_answer_covers": "Free Checking $0, Interest Checking $10 (waivable), Student Checking $0"
+  },
+  {
+    "query": "what happens if i overdraft my account",
+    "expected_answer_covers": "$30 overdraft fee, max 3 per day ($90), can opt out"
+  },
+  {
+    "query": "Do you charge for using another bank's ATM?",
+    "expected_answer_covers": "$2.50 out-of-network fee plus possible ATM owner fee"
+  },
+  {
+    "query": "How much to wire money internationally?",
+    "expected_answer_covers": "$45 for international wire, $25 domestic, incoming free"
+  },
+  {
+    "query": "What's my daily withdrawal limit?",
+    "expected_answer_covers": "$500 ATM limit, $2,500 debit purchase limit"
+  },
+  {
+    "query": "How long does a check deposit take to clear?",
+    "expected_answer_covers": "1-2 business days, first $225 next business day"
+  },
+  {
+    "query": "Someone made a charge on my account I didn't authorize, what do I do?",
+    "expected_answer_covers": "Dispute via app/online banking/support within 60 days, provisional credit in 10 business days"
+  },
+  {
+    "query": "Cuál es la tasa de interés de mi cuenta de ahorros?",
+    "expected_answer_covers": "Spanish-language query — same savings rate answer, returned in Spanish"
+  },
+  {
+    "query": "This is the third time I've had to ask about this fee and nobody helps me, this is ridiculous!!",
+    "expected_answer_covers": "Should answer the fee question AND flag frustration/suggest human support"
+  },
+  {
+    "query": "Can you help me file my taxes?",
+    "expected_answer_covers": "Out-of-scope — graceful fallback with contact-support suggestion"
+  },
+  {
+    "query": "What's the weather like today?",
+    "expected_answer_covers": "Out-of-scope — graceful fallback with contact-support suggestion"
+  }
+]

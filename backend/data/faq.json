@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "category": "account_types",
+    "question": "What types of savings accounts do you offer?",
+    "answer": "We offer three savings account types: Basic Savings (no minimum balance, 0.50% APY), Premium Savings (requires $2,500 minimum balance, 1.75% APY), and Youth Savings (for account holders under 18, no minimum balance, 1.00% APY).",
+    "keywords": [
+      "savings account",
+      "account types",
+      "types of accounts",
+      "basic savings",
+      "premium savings",
+      "youth savings"
+    ],
+    "source": "Account Types & Eligibility, Section 1.1"
+  },
+  {
+    "id": 2,
+    "category": "account_types",
+    "question": "What checking account options are available?",
+    "answer": "We offer Free Checking (no monthly fee, no minimum balance), Interest Checking (requires $1,000 minimum balance, earns 0.25% APY), and Student Checking (free for full-time students, no fees or minimums).",
+    "keywords": [
+      "checking account",
+      "free checking",
+      "interest checking",
+      "student checking"
+    ],
+    "source": "Account Types & Eligibility, Section 1.2"
+  },
+  {
+    "id": 3,
+    "category": "account_types",
+    "question": "How do I open a new account?",
+    "answer": "You can open a new account online through our website, via our mobile app, or by visiting any branch with a valid government-issued ID and an initial deposit (minimum varies by account type, starting at $25).",
+    "keywords": [
+      "open account",
+      "new account",
+      "open a bank account",
+      "sign up"
+    ],
+    "source": "Account Types & Eligibility, Section 1.5"
+  },
+  {
+    "id": 4,
+    "category": "account_types",
+    "question": "Can I have a joint account?",
+    "answer": "Yes, joint accounts are available for checking and savings products. Both account holders must provide valid ID, and either party can make withdrawals or deposits unless the account is set up to require both signatures.",
+    "keywords": [
+      "joint account",
+      "shared account",
+      "co-owner"
+    ],
+    "source": "Account Types & Eligibility, Section 1.6"
+  },
+  {
+    "id": 5,
+    "category": "interest_rates",
+    "question": "What is the interest rate on savings accounts?",
+    "answer": "Basic Savings earns 0.50% APY, Premium Savings earns 1.75% APY (with a $2,500 minimum balance), and Youth Savings earns 1.00% APY. Rates are variable and may change with market conditions.",
+    "keywords": [
+      "savings rate",
+      "interest rate",
+      "how much interest do i earn",
+      "apy",
+      "savings interest"
+    ],
+    "source": "Interest Rates, Section 2.1"
+  },
+  {
+    "id": 6,
+    "category": "interest_rates",
+    "question": "How is interest calculated and paid?",
+    "answer": "Interest is compounded daily and credited to your account monthly. You can view accrued interest anytime in your online statement.",
+    "keywords": [
+      "interest calculation",
+      "compound interest",
+      "how is interest paid",
+      "interest credited"
+    ],
+    "source": "Interest Rates, Section 2.2"
+  },
+  {
+    "id": 7,
+    "category": "interest_rates",
+    "question": "What are your current CD (certificate of deposit) rates?",
+    "answer": "Our CD rates are: 6-month CD at 2.00% APY, 12-month CD at 3.10% APY, 24-month CD at 3.40% APY, and 60-month CD at 3.75% APY. Early withdrawal penalties apply.",
+    "keywords": [
+      "cd rates",
+      "certificate of deposit",
+      "cd interest"
+    ],
+    "source": "Interest Rates, Section 2.4"
+  },
+  {
+    "id": 8,
+    "category": "interest_rates",
+    "question": "Do interest rates change over time?",
+    "answer": "Yes, rates on savings and checking accounts are variable and tied to market conditions and the Federal Funds Rate. CD rates are fixed for the term you select at account opening.",
+    "keywords": [
+      "variable rate",
+      "rate changes",
+      "fixed rate"
+    ],
+    "source": "Interest Rates, Section 2.5"
+  },
+  {
+    "id": 9,
+    "category": "loan_eligibility",
+    "question": "What are the requirements for a personal loan?",
+    "answer": "Personal loan applicants must be 18+, have a credit score of 620 or higher, verifiable income of at least $24,000/year, and a debt-to-income ratio below 43%. Loan amounts range from $1,000 to $50,000.",
+    "keywords": [
+      "personal loan",
+      "loan eligibility",
+      "loan requirements",
+      "qualify for a loan"
+    ],
+    "source": "Loan Eligibility, Section 3.1"
+  },
+  {
+    "id": 10,
+    "category": "loan_eligibility",
+    "question": "Am I eligible for a mortgage?",
+    "answer": "Mortgage eligibility generally requires a credit score of 620+ (higher for the best rates), a down payment of at least 3-20% depending on loan type, stable employment history of 2+ years, and a debt-to-income ratio under 45%.",
+    "keywords": [
+      "mortgage eligibility",
+      "home loan",
+      "qualify for mortgage",
+      "house loan"
+    ],
+    "source": "Loan Eligibility, Section 3.2"
+  },
+  {
+    "id": 11,
+    "category": "loan_eligibility",
+    "question": "Can I get a loan with bad credit?",
+    "answer": "Applicants with a credit score below 620 may still qualify for a secured loan or a co-signed loan, though interest rates will be higher. We recommend speaking with a loan officer to review options.",
+    "keywords": [
+      "bad credit loan",
+      "poor credit",
+      "low credit score loan"
+    ],
+    "source": "Loan Eligibility, Section 3.3"
+  },
+  {
+    "id": 12,
+    "category": "loan_eligibility",
+    "question": "How long does loan approval take?",
+    "answer": "Personal loan decisions are typically made within 1-2 business days. Mortgages take 2-4 weeks due to appraisal and underwriting requirements. Auto loans can be pre-approved within minutes online.",
+    "keywords": [
+      "loan approval time",
+      "how long loan approval",
+      "loan processing time"
+    ],
+    "source": "Loan Eligibility, Section 3.4"
+  },
+  {
+    "id": 13,
+    "category": "loan_eligibility",
+    "question": "What documents do I need to apply for a loan?",
+    "answer": "You'll need a government-issued ID, proof of income (pay stubs or tax returns), proof of address, and for mortgages, additional documentation like bank statements and employment verification.",
+    "keywords": [
+      "loan documents",
+      "loan application requirements",
+      "documents needed for loan"
+    ],
+    "source": "Loan Eligibility, Section 3.5"
+  },
+  {
+    "id": 14,
+    "category": "fees",
+    "question": "What is the monthly maintenance fee for checking accounts?",
+    "answer": "Free Checking has no monthly fee. Interest Checking has a $10 monthly fee, waived if you maintain a $1,000 minimum balance. Student Checking has no fee for account holders enrolled full-time.",
+    "keywords": [
+      "monthly fee",
+      "maintenance fee",
+      "checking fee"
+    ],
+    "source": "Fees, Section 4.1"
+  },
+  {
+    "id": 15,
+    "category": "fees",
+    "question": "What is the overdraft fee?",
+    "answer": "The overdraft fee is $30 per transaction, with a maximum of 3 overdraft fees charged per day ($90 max). You can opt out of overdraft coverage at any time to avoid these fees.",
+    "keywords": [
+      "overdraft fee",
+      "overdraft charge",
+      "insufficient funds fee"
+    ],
+    "source": "Fees, Section 4.2"
+  },
+  {
+    "id": 16,
+    "category": "fees",
+    "question": "Are there ATM fees?",
+    "answer": "Withdrawals at our network ATMs are free. Out-of-network ATM withdrawals incur a $2.50 fee from us, plus any fee charged by the ATM owner.",
+    "keywords": [
+      "atm fee",
+      "atm charge",
+      "out of network atm"
+    ],
+    "source": "Fees, Section 4.3"
+  },
+  {
+    "id": 17,
+    "category": "fees",
+    "question": "Is there a fee for wire transfers?",
+    "answer": "Outgoing domestic wire transfers cost $25, international wires cost $45. Incoming wire transfers are free of charge.",
+    "keywords": [
+      "wire transfer fee",
+      "wire cost",
+      "international wire fee"
+    ],
+    "source": "Fees, Section 4.4"
+  },
+  {
+    "id": 18,
+    "category": "fees",
+    "question": "What is the fee for a returned check?",
+    "answer": "A returned check (NSF) fee of $25 applies each time a check or automatic payment is returned due to insufficient funds.",
+    "keywords": [
+      "returned check fee",
+      "nsf fee",
+      "bounced check"
+    ],
+    "source": "Fees, Section 4.5"
+  },
+  {
+    "id": 19,
+    "category": "transactions",
+    "question": "What is the daily withdrawal limit?",
+    "answer": "The standard daily ATM withdrawal limit is $500. Debit card purchase limits are $2,500 per day. Limits can be increased temporarily by contacting customer support.",
+    "keywords": [
+      "withdrawal limit",
+      "daily limit",
+      "atm limit",
+      "debit card limit"
+    ],
+    "source": "Transactions, Section 5.1"
+  },
+  {
+    "id": 20,
+    "category": "transactions",
+    "question": "How long do deposits take to clear?",
+    "answer": "Cash deposits and direct deposits are available immediately. Check deposits typically clear within 1-2 business days, though the first $225 is usually available the next business day.",
+    "keywords": [
+      "deposit clearing time",
+      "when do deposits clear",
+      "check hold"
+    ],
+    "source": "Transactions, Section 5.2"
+  },
+  {
+    "id": 21,
+    "category": "transactions",
+    "question": "How do I dispute a transaction?",
+    "answer": "You can dispute a transaction through the mobile app under 'Account Activity', online banking, or by calling customer support within 60 days of the transaction date. Provisional credit is often issued within 10 business days.",
+    "keywords": [
+      "dispute transaction",
+      "unauthorized charge",
+      "fraud transaction"
+    ],
+    "source": "Transactions, Section 5.3"
+  },
+  {
+    "id": 22,
+    "category": "transactions",
+    "question": "How long does a transfer between accounts take?",
+    "answer": "Transfers between your own accounts at our bank are instant. Transfers to external accounts via ACH take 1-3 business days. Same-day ACH is available for a $5 fee.",
+    "keywords": [
+      "transfer time",
+      "account transfer",
+      "ach transfer time"
+    ],
+    "source": "Transactions, Section 5.4"
+  },
+  {
+    "id": 23,
+    "category": "transactions",
+    "question": "Can I set up recurring payments?",
+    "answer": "Yes, recurring payments and autopay can be set up through online banking or the mobile app for bills, loan payments, and transfers to other accounts.",
+    "keywords": [
+      "recurring payment",
+      "autopay",
+      "scheduled payment"
+    ],
+    "source": "Transactions, Section 5.5"
+  }
+]

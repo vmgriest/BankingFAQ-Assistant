@@ -1,0 +1,98 @@
+.admin-app {
+  max-width: 960px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+.admin-main {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .admin-main { grid-template-columns: 1fr; }
+}
+
+.admin-form-card, .admin-list-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.admin-form-card h2, .admin-list-card h2 {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+#faq-form { display: flex; flex-direction: column; gap: 12px; }
+
+#faq-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+#faq-form input, #faq-form select, #faq-form textarea {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.form-actions { display: flex; gap: 10px; }
+
+.form-actions button {
+  border: none;
+  border-radius: 8px;
+  padding: 9px 16px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#submit-btn { background: var(--primary); color: var(--primary-text); }
+.secondary { background: transparent; border: 1px solid var(--border) !important; color: var(--text); }
+
+.faq-list { display: flex; flex-direction: column; gap: 10px; max-height: 70vh; overflow-y: auto; }
+
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--panel);
+}
+
+.faq-item .cat {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.faq-item .q { font-weight: 600; margin: 4px 0 2px; }
+.faq-item .a { font-size: 13.5px; color: var(--muted); }
+
+.faq-item-actions { margin-top: 8px; display: flex; gap: 8px; }
+.faq-item-actions button {
+  font-size: 12.5px;
+  border-radius: 6px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+.faq-item-actions button.danger { color: var(--danger-text); border-color: var(--danger-border); }

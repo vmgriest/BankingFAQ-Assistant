@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meridian Bank — FAQ Admin</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="admin-app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">M</span>
+        <div>
+          <div class="brand-name">FAQ Admin Panel</div>
+          <div class="brand-sub">Manage knowledge base entries</div>
+        </div>
+      </div>
+      <a class="admin-link" href="index.html">← Back to chat</a>
+    </header>
+
+    <main class="admin-main">
+      <section class="admin-form-card">
+        <h2 id="form-title">Add new FAQ</h2>
+        <form id="faq-form">
+          <input type="hidden" id="faq-id" />
+          <label>Category
+            <select id="category">
+              <option value="account_types">Account Types</option>
+              <option value="interest_rates">Interest Rates</option>
+              <option value="loan_eligibility">Loan Eligibility</option>
+              <option value="fees">Fees</option>
+              <option value="transactions">Transactions</option>
+            </select>
+          </label>
+          <label>Question
+            <input type="text" id="question" required placeholder="e.g. What is the overdraft fee?" />
+          </label>
+          <label>Answer
+            <textarea id="answer" required rows="3" placeholder="Grounded, factual answer…"></textarea>
+          </label>
+          <label>Keywords (comma-separated)
+            <input type="text" id="keywords" placeholder="overdraft fee, insufficient funds" />
+          </label>
+          <label>Source label
+            <input type="text" id="source" placeholder="Fees, Section 4.2" />
+          </label>
+          <div class="form-actions">
+            <button type="submit" id="submit-btn">Add FAQ</button>
+            <button type="button" id="cancel-btn" class="secondary hidden">Cancel edit</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="admin-list-card">
+        <h2>Existing FAQs (<span id="count">0</span>)</h2>
+        <div id="faq-list" class="faq-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

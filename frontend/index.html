@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meridian Bank — FAQ Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">M</span>
+        <div>
+          <div class="brand-name">Meridian Bank</div>
+          <div class="brand-sub">FAQ Assistant</div>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <select id="lang-select" title="Language">
+          <option value="auto">Auto</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+        <a class="admin-link" href="admin.html">Admin</a>
+      </div>
+    </header>
+
+    <div id="frustration-banner" class="frustration-banner hidden">
+      We noticed this conversation may be frustrating — a human agent is available at
+      <strong>1-800-555-0199</strong>.
+    </div>
+
+    <main id="chat" class="chat" aria-live="polite"></main>
+
+    <div id="followups" class="followups hidden"></div>
+
+    <form id="composer" class="composer">
+      <input
+        id="input"
+        type="text"
+        autocomplete="off"
+        placeholder="Ask about accounts, rates, loans, fees, or transactions…"
+      />
+      <button type="submit" aria-label="Send">Send</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
