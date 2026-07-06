@@ -1,4 +1,4 @@
-# Meridian Bank FAQ Chatbot (Synthetic Demo)
+# Bank FAQ Chatbot (Synthetic Demo)
 
 A conversational banking FAQ assistant: FastAPI backend, TF-IDF retrieval over a synthetic FAQ
 knowledge base, answer generation grounded via a **local Ollama LLM** (no cloud API key needed),
