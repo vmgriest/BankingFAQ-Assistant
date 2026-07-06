@@ -9,8 +9,8 @@ const STORAGE_KEY = "banking_faq_session_id";
 let sessionId = localStorage.getItem(STORAGE_KEY) || null;
 
 const GREETING = {
-  en: "Hi! I'm the Meridian Bank FAQ Assistant. Ask me about accounts, interest rates, loans, fees, or transactions.",
-  es: "¡Hola! Soy el asistente de preguntas frecuentes de Meridian Bank. Pregúntame sobre cuentas, tasas de interés, préstamos, tarifas o transacciones.",
+  en: "Hi! I'm the Bank FAQ Assistant. Ask me about accounts, interest rates, loans, fees, or transactions.",
+  es: "¡Hola! Soy el asistente de preguntas frecuentes del banco. Pregúntame sobre cuentas, tasas de interés, préstamos, tarifas o transacciones.",
 };
 
 const STARTER_PROMPTS = {

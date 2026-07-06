@@ -12,18 +12,18 @@ FALLBACK = {
     "en": (
         "I'm not able to find an answer to that in our banking FAQ. "
         "For help with this, please contact our support team at 1-800-555-0199 "
-        "or support@meridianbank.example — they're available 24/7."
+        "or support@bank.example — they're available 24/7."
     ),
     "es": (
         "No encuentro una respuesta a eso en nuestras preguntas frecuentes bancarias. "
         "Para obtener ayuda, comunícate con nuestro equipo de soporte al 1-800-555-0199 "
-        "o support@meridianbank.example, disponible las 24 horas."
+        "o support@bank.example, disponible las 24 horas."
     ),
 }
 
 SYSTEM_TEMPLATE = {
     "en": (
-        "You are a helpful, concise banking customer service assistant for Meridian Bank. "
+        "You are a helpful, concise banking customer service assistant for the Bank. "
         "Answer ONLY using the FAQ context and policy excerpts provided below — do not invent "
         "rates, fees, or policies that aren't stated. You do NOT know which specific account tier "
         "the customer holds, and you must NEVER ask them which account type they have. Instead, "
@@ -39,7 +39,7 @@ SYSTEM_TEMPLATE = {
         "CONTEXT:\n{context}"
     ),
     "es": (
-        "Eres un asistente de servicio al cliente bancario, útil y conciso, para Meridian Bank. "
+        "Eres un asistente de servicio al cliente bancario, útil y conciso, para el banco. "
         "Responde SOLO usando el contexto de las preguntas frecuentes y las políticas que se "
         "proporcionan a continuación; no inventes tasas, tarifas ni políticas que no se mencionen. "
         "No sabes qué tipo específico de cuenta tiene el cliente y NUNCA debes preguntarle qué tipo "
